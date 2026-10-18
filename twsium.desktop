@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=twsium
+Exec=bash -c "sudo systemctl start waydroid-container && sleep 10 && waydroid session start & ~/.twsium/twsium.sh"
+Terminal=true
