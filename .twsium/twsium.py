@@ -8,6 +8,8 @@ import time
 from dotenv import load_dotenv
 
 
+load_dotenv(dotenv_path="~/twsium/.env")
+
 # .ROBLOSECURITY and userId parameters for querying. Make sure
 # to fill those up in .env
 roblosecurity = os.getenv("ROBLOSECURITY", None)
